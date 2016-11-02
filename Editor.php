@@ -16,5 +16,9 @@ class Editor {
         echo 'Here<br>';
         return true;
     }
+    
+    function getEditorName() {
+        return $this->name;
+    }
  
 }
